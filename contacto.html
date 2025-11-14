@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>ZUNGARO KEEPERS</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body vlink="#551A8B" text="#000000" link="#0000EE" bgcolor="#333333"
+    alink="#EE0000">
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo"> <a href="#">ZUNGARO KEEPERS</a> </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html" onclick="selecionar()">INICIO</a></li>
+            <li><a href="form.html" onclick="selecionar()">USER KEEPER</a></li>
+            <li><a href="PAGINA1.html" onclick="selecionar()">MAPA</a></li>
+            <li><a href="RECONOCIMIENTO.html" onclick="selecionar()">RECONOCIMIENTO</a></li>
+            <li><a href="contacto.html" onclick="selecionar()">REPORTAR</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()"> </div>
+      </header>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()"> </div>
+    </div>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2><br>
+        </h2>
+        <h2>REPORTA AL ANIMAL EN PELIGRO<br>
+        </h2>
+        <div class="fila">
+          <!-- Formulario -->
+          <div class="col"> <input placeholder="Nombre" type="text"> <input
+              placeholder="Número telefónico" type="text"> <input
+              placeholder="Correo Electronico" type="text"> <input
+              placeholder="Reportación del animal en peligro"
+              type="text"> <textarea name="" id="" cols="30" rows="10" placeholder="Ubicación del animal en zona de riesgo (adjuntar evidencia de la locación: foto o video)" =""=""></textarea>
+            <button> Alerta Verde <span class="overlay"></span> </button>
+            <button> Alerta Amarilla <span class="overlay"></span> </button>
+            <button> Alerta Roja <span class="overlay"></span> </button>
+          </div>
+          <!-- Mapa -->
+          <div class="col"> <b><i><img src="img/ubicacion.png" alt=""></i></b><b><i>
+              </i></b><b> </b>
+            <div class="info" style="left: 203px; width: 406px; top:
+              251px; height: 421px;"><b><i> </i></b><b> </b>
+              <ul>
+                <b> </b><b><i> </i></b><b> </b>
+                <li>
+                  <p data-pm-slice="1 1 []"><b>Niveles de alerta</b></p>
+                  <p>1. Alerta Verde – <i>Observación</i></p>
+                  <p>2. Alerta Amarilla – <i>Riesgo Potencial</i></p>
+                  <p>3. Alerta Roja – <i>Emergencia Crítica</i></p>
+                </li>
+                <br>
+                <br>
+                <li>
+                  <div align="justify"><i>"Por si no lográs tener una
+                      conexión estable dentro de la zona de
+                      zungarococha, es recomendable contactarse con el
+                      siguiente número":</i></div>
+                </li>
+                <li><i class="fa-solid fa-mobile-screen"> Llamanos:
+                    (065) 434344 </i> </li>
+                <li><i class="fa-solid fa-envelope"> Email: <br>
+                    <br>
+                    Zungarokeepers@gmail.com </i> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
